@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leo Internationals</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+       <header>
+           <nav>
+               <ul id="headers-container">
+                <li><img id="logo" src="../../Day1/Lab1Solution/Resource/Leo-Logo.png" alt="Lion Logo"></li>
+                <li id="welcome-fani">Welcome, Fani</li>
+                <li><button  id="log-out">Log out</button></li>
+               </ul>
+           </nav> 
+       </header>
+
+       <section class="sectionOne-class">
+           <table>
+               <h2>Product List</h2>
+               <thead>
+                   <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                    <th>Actions</th>
+                   </tr>
+               </thead>
+                 <tr>
+                    <td>Nodejs</td>
+                    <td>19.99</td>
+                    <td>8</td>
+                    <td><img class="cart" src="../../Day1/Lab1Solution/Resource/shoppingcart.png" alt="Shopping Cart"></td>
+                 </tr>
+                <tr>
+                    <td>React</td>
+                    <td>19.99</td>
+                    <td>5</td>
+                    <td><img class="cart" src="../../Day1/Lab1Solution/Resource/shoppingcart.png" alt="Shopping Cart"></td>
+                </tr>
+                <tr>
+                    <td>Angular</td>
+                    <td>29.99</td>
+                    <td>13</td>
+                    <td><img class="cart" src="../../Day1/Lab1Solution/Resource/shoppingcart.png" alt="Shopping Cart"></td>
+                </tr>
+           </table>
+       </section>
+
+       <section>
+         <table>
+            <h2>Your Shopping cart</h2>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Nodejs</td>
+                <td>9.99</td>
+                <td>9.99</td>
+                <td>+ <input type="number"> -</td>
+            </tr>
+
+            <tr>
+                <td>Angular</td>
+                <td>29.99</td>
+                <td>290.99</td>
+                <td>+ <input type="number"> -</td>
+            </tr>
+
+            <tr>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td id="total">total: 300.98</td>
+            </tr>
+         </table>
+         <button id="btn-placeholder">PlaceOrder</button>
+       </section>
+
+       <footer>
+        <a href="" target="_blank"><img
+                id="html-checker-img" src="./HtmlChecker.png" alt="Html Checker image"></a>
+        
+        <a href=""
+            target="_blank"><img id="css-checker-img" src="./CssChecker.png" alt="Html Checker image"></a>
+           <h4>Faniel 2024</h4>
+       </footer>
+</body>
+</html>
